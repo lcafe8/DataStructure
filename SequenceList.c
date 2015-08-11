@@ -157,7 +157,7 @@ Status ListTraverse(SqList *L, int (*visit)(ElemType e))
 
 int main()
 {
-    //srand((int) time(0));
+    srand((int) time(0));
     SqList L;
     ElemType e;
     int k=0;
