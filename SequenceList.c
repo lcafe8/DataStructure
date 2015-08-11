@@ -24,6 +24,7 @@ typedef struct
     int length;//当前长度
     int listsize;//当前分配容量
 }SqList;
+//初始化
 Status InitList_Sq(SqList *L)
 {
     L->elem=(ElemType*)malloc(LIST_INIT_SIZE*sizeof(ElemType));
